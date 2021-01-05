@@ -1,4 +1,6 @@
-import React, { Suspense, useRef } from 'react';
+import './style.sass';
+
+import React, { Suspense } from 'react';
 import { render } from 'react-dom';
 import { useLoader } from 'react-three-fiber';
 import { TextureLoader } from 'three';
@@ -6,27 +8,23 @@ import {
  FaceBufferGeometry, FaceTracker, ZapparCamera, ZapparCanvas,
 } from '@zappar/zappar-react-three-fiber';
 
+import faceMapSrc from './assets/faceMeshTemplate.png'
+
 const FaceMeshMaterial = () => {
-    const faceMapSrc = require('file-loader!./faceMeshTemplate.png').default;
     const faceMapTexture = useLoader(TextureLoader, faceMapSrc);
     return <meshStandardMaterial transparent map={faceMapTexture} />;
 };
 
 export default function App() {
-    const zapparCamera = useRef();
-    const faceTrackerGroup = useRef();
 
     return (
       <ZapparCanvas>
-        <ZapparCamera rearCameraMirrorMode="css" ref={zapparCamera} />
-        <FaceTracker
-          camera={zapparCamera}
-          ref={faceTrackerGroup}
-        >
+        <ZapparCamera rearCameraMirrorMode="css"/>
+        <FaceTracker>
           <Suspense fallback={null}>
             <mesh>
               <FaceMeshMaterial />
-              <FaceBufferGeometry trackerGroup={faceTrackerGroup} />
+              <FaceBufferGeometry/>
             </mesh>
           </Suspense>
 
