@@ -1,6 +1,6 @@
 import './style.sass';
 
-import React, { Suspense } from 'react';
+import React, { Suspense, useRef } from 'react';
 import { render } from 'react-dom';
 import { useLoader } from 'react-three-fiber';
 import { TextureLoader } from 'three';
@@ -16,15 +16,15 @@ const FaceMeshMaterial = () => {
 };
 
 export default function App() {
-
+    const trackerGroup = useRef()
     return (
       <ZapparCanvas>
         <ZapparCamera rearCameraMirrorMode="css"/>
-        <FaceTracker>
+        <FaceTracker ref={trackerGroup}>
           <Suspense fallback={null}>
             <mesh>
               <FaceMeshMaterial />
-              <FaceBufferGeometry/>
+              <FaceBufferGeometry trackerGroup={trackerGroup}/>
             </mesh>
           </Suspense>
 
