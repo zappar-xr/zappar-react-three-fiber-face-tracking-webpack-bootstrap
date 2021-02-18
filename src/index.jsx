@@ -1,36 +1,17 @@
-import './style.sass';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
-import React, { Suspense, useRef } from 'react';
-import { render } from 'react-dom';
-import { useLoader } from 'react-three-fiber';
-import { TextureLoader } from 'three';
-import {
- FaceBufferGeometry, FaceTracker, ZapparCamera, ZapparCanvas,
-} from '@zappar/zappar-react-three-fiber';
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
-import faceMapSrc from './assets/faceMeshTemplate.png'
-
-const FaceMeshMaterial = () => {
-    const faceMapTexture = useLoader(TextureLoader, faceMapSrc);
-    return <meshStandardMaterial transparent map={faceMapTexture} />;
-};
-
-export default function App() {
-    const trackerGroup = useRef()
-    return (
-      <ZapparCanvas>
-        <ZapparCamera rearCameraMirrorMode="css"/>
-        <FaceTracker ref={trackerGroup}>
-          <Suspense fallback={null}>
-            <mesh>
-              <FaceMeshMaterial />
-              <FaceBufferGeometry trackerGroup={trackerGroup}/>
-            </mesh>
-          </Suspense>
-
-        </FaceTracker>
-        <directionalLight position={[2.5, 8, 5]} intensity={1.5} />
-      </ZapparCanvas>
-    );
-}
-render(<App />, document.getElementById('root'));
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
