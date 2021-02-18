@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.16285d4f.chunk.css",
+    "main.js": "/static/js/main.ffe7a464.chunk.js",
+    "main.js.map": "/static/js/main.ffe7a464.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f7ef2b81.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f7ef2b81.js.map",
+    "static/js/2.76144045.chunk.js": "/static/js/2.76144045.chunk.js",
+    "static/js/2.76144045.chunk.js.map": "/static/js/2.76144045.chunk.js.map",
+    "face_tracking_model.zbin": "/482727c0e7dd40d73f5aae47f238ad61.zbin",
+    "face_mesh_face_model.zbin": "/b4f46e148a3b3b5aef90717d8d60e3fc.zbin",
+    "face_mesh_full_head_simplified_model.zbin": "/f7b62a3a53b5c9b3222ba8dc53cb8b11.zbin",
+    "index.html": "/index.html",
+    "static/css/main.16285d4f.chunk.css.map": "/static/css/main.16285d4f.chunk.css.map",
+    "static/js/2.76144045.chunk.js.LICENSE.txt": "/static/js/2.76144045.chunk.js.LICENSE.txt",
+    "static/js/worker.27b30814.worker.js": "/static/js/worker.27b30814.worker.js",
+    "static/js/worker.27b30814.worker.js.map": "/static/js/worker.27b30814.worker.js.map",
+    "static/media/faceMeshTemplate.6e15d49f.png": "/static/media/faceMeshTemplate.6e15d49f.png",
+    "zcv/zcv.wasm": "/zcv/zcv.wasm"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7ef2b81.js",
+    "static/js/2.76144045.chunk.js",
+    "static/css/main.16285d4f.chunk.css",
+    "static/js/main.ffe7a464.chunk.js"
+  ]
+}
