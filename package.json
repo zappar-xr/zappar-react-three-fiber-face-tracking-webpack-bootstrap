@@ -5,13 +5,13 @@
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
-    "@testing-library/user-event": "^12.7.2",
-    "@zappar/zappar-react-three-fiber": "^0.1.25",
+    "@testing-library/user-event": "^12.7.3",
+    "@zappar/zappar-react-three-fiber": "^0.1.26",
     "react": "^17.0.1",
     "react-app-rewired": "^2.1.8",
     "react-dom": "^17.0.1",
-    "react-scripts": "4.0.2",
-    "react-three-fiber": "^5.3.18",
+    "react-scripts": "4.0.3",
+    "react-three-fiber": "^5.3.19",
     "three": "^0.123.0",
     "web-vitals": "^1.1.0"
   },
