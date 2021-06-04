@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/static/css/main.a25be651.chunk.css",
-    "main.js": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/static/js/main.be256cec.chunk.js",
-    "main.js.map": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/static/js/main.be256cec.chunk.js.map",
-    "runtime-main.js": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/static/js/runtime-main.5772ca39.js",
-    "runtime-main.js.map": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/static/js/runtime-main.5772ca39.js.map",
-    "static/js/2.327f7631.chunk.js": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/static/js/2.327f7631.chunk.js",
-    "static/js/2.327f7631.chunk.js.map": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/static/js/2.327f7631.chunk.js.map",
+    "main.js": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/static/js/main.5795460a.chunk.js",
+    "main.js.map": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/static/js/main.5795460a.chunk.js.map",
+    "runtime-main.js": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/static/js/runtime-main.c55a16b0.js",
+    "runtime-main.js.map": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/static/js/runtime-main.c55a16b0.js.map",
+    "static/js/2.4a9de5db.chunk.js": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/static/js/2.4a9de5db.chunk.js",
+    "static/js/2.4a9de5db.chunk.js.map": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/static/js/2.4a9de5db.chunk.js.map",
     "face_tracking_model.zbin": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/482727c0e7dd40d73f5aae47f238ad61.zbin",
     "face_mesh_face_model.zbin": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/b4f46e148a3b3b5aef90717d8d60e3fc.zbin",
     "face_mesh_full_head_simplified_model.zbin": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/f7b62a3a53b5c9b3222ba8dc53cb8b11.zbin",
     "index.html": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/index.html",
     "static/css/main.a25be651.chunk.css.map": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/static/css/main.a25be651.chunk.css.map",
-    "static/js/2.327f7631.chunk.js.LICENSE.txt": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/static/js/2.327f7631.chunk.js.LICENSE.txt",
-    "static/js/worker.2baace21.worker.js": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/static/js/worker.2baace21.worker.js",
-    "static/js/worker.2baace21.worker.js.map": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/static/js/worker.2baace21.worker.js.map",
+    "static/js/2.4a9de5db.chunk.js.LICENSE.txt": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/static/js/2.4a9de5db.chunk.js.LICENSE.txt",
+    "static/js/worker.22228fda.worker.js": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/static/js/worker.22228fda.worker.js",
+    "static/js/worker.22228fda.worker.js.map": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/static/js/worker.22228fda.worker.js.map",
     "static/media/faceMeshTemplate.6e15d49f.png": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/static/media/faceMeshTemplate.6e15d49f.png",
     "zcv/zcv.wasm": "/zappar-react-three-fiber-face-tracking-webpack-bootstrap/zcv/zcv.wasm"
   },
   "entrypoints": [
-    "static/js/runtime-main.5772ca39.js",
-    "static/js/2.327f7631.chunk.js",
+    "static/js/runtime-main.c55a16b0.js",
+    "static/js/2.4a9de5db.chunk.js",
     "static/css/main.a25be651.chunk.css",
-    "static/js/main.be256cec.chunk.js"
+    "static/js/main.5795460a.chunk.js"
   ]
 }
