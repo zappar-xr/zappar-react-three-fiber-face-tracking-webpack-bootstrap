@@ -17,7 +17,7 @@ function App() {
     const trackerGroup = useRef()
     return (
       <ZapparCanvas>
-        <ZapparCamera rearCameraMirrorMode="css"/>
+        <ZapparCamera userFacing/>
         <FaceTracker ref={trackerGroup}>
           <Suspense fallback={null}>
             <mesh>
